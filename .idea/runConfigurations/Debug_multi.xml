@@ -1,8 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Debug multi" type="NodeJSConfigurationType" application-parameters="src\wdio.multi.config.ts --spec $FilePath$" path-to-js-file="node_modules/@wdio/cli/bin/wdio.js" working-dir="$PROJECT_DIR$">
-    <envs>
-      <env name="DEBUG" value="true" />
-    </envs>
-    <method v="2" />
-  </configuration>
-</component>
