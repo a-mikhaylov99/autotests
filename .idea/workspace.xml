@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="82c12c60-26da-4b7d-a972-c611746d3a70" name="Changes" comment="[AUTOTEST-241] Уменьшил количество потоков до 5" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EditorConfigPreviewManager">
+    <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="GhostReviewsManagerService">
+    <projectManager projectId="autotest">
+      <reviews />
+      <uncommitted-review-parts />
+    </projectManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="22b5d1Q320gSJNY8mOIbIpOmORi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="UPSOURCE_REVIEWS_QUERY" value="AUTOTEST-185" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="CONST" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../oop" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="C:\project\e2e_tests\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\project\e2e_tests\src\learn\content" />
+      <recent name="C:\project\e2e_tests\src\space\content" />
+      <recent name="C:\project\e2e_tests\src\space\quiz-collaboration\test-multi" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\project\e2e_tests\src\common\data\content-management" />
+      <recent name="C:\project\e2e_tests\src\common\data" />
+      <recent name="C:\project\e2e_tests\src\common\test\content\content-management" />
+      <recent name="C:\project\e2e_tests\src\space\content\content-management\test" />
+      <recent name="C:\project\e2e_tests\src\common\page-object" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.debug">
+    <configuration name="Prod multi" type="NodeJSConfigurationType" application-parameters="src\wdio.multi.config.ts --spec $FilePath$" path-to-js-file="node_modules/@wdio/cli/bin/wdio.js" working-dir="$PROJECT_DIR$">
+      <envs>
+        <env name="DEBUG" value="false" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="prod" type="NodeJSConfigurationType" application-parameters="src\wdio.config.ts --spec $FilePath$" path-to-js-file="node_modules/@wdio/cli/bin/wdio.js" working-dir="$PROJECT_DIR$">
+      <envs>
+        <env name="DEBUG" value="false" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="run:learning-track" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="run:learning-track" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="run:multi-prod" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="run:multi" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs>
+        <env name="DEBUG" value="false" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="run:multi" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="run:multi" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="run:project-learn-prod" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="run:project-learn" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs>
+        <env name="DEBUG" value="false" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="run:project-learn" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="run:project-learn" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="run:project-multi" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="run:project-multi" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="run:project-space-prod" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="run:project-space" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs>
+        <env name="DEBUG" value="false" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="run:project-space" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="run:project-space" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="run:suite-account" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="run:suite-account" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="run:ts-node" type="js.build_tools.npm" temporary="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="run:ts-node" />
+      </scripts>
+      <arguments value="$FilePath$" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="ts-build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="ts-build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.debug" />
+      <item itemvalue="Node.js.prod" />
+      <item itemvalue="Node.js.Debug multi" />
+      <item itemvalue="Node.js.Prod multi" />
+      <item itemvalue="npm.run:multi" />
+      <item itemvalue="npm.run:multi-prod" />
+      <item itemvalue="npm.run:ts-node" />
+      <item itemvalue="npm.run:project-space-prod" />
+      <item itemvalue="npm.run:project-learn-prod" />
+      <item itemvalue="npm.run:project-learn" />
+      <item itemvalue="npm.run:project-space" />
+      <item itemvalue="npm.ts-build" />
+      <item itemvalue="npm.run:suite-account" />
+      <item itemvalue="npm.run:learning-track" />
+      <item itemvalue="npm.run:project-multi" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.run:project-space" />
+        <item itemvalue="npm.run:project-multi" />
+        <item itemvalue="npm.run:learning-track" />
+        <item itemvalue="npm.run:suite-account" />
+        <item itemvalue="npm.ts-build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82c12c60-26da-4b7d-a972-c611746d3a70" name="Changes" comment="" />
+      <created>1640093529684</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640093529684</updated>
+      <workItem from="1640093531488" duration="1715000" />
+      <workItem from="1640096834395" duration="382000" />
+      <workItem from="1640099826064" duration="2022000" />
+      <workItem from="1640166572974" duration="130000" />
+      <workItem from="1640242646834" duration="657000" />
+      <workItem from="1640243315788" duration="86000" />
+      <workItem from="1640243414161" duration="913000" />
+      <workItem from="1640244344841" duration="3588000" />
+      <workItem from="1640249470975" duration="1624000" />
+      <workItem from="1640414371016" duration="5678000" />
+      <workItem from="1640423994157" duration="2448000" />
+      <workItem from="1640542331849" duration="6501000" />
+      <workItem from="1640604000227" duration="481000" />
+      <workItem from="1640615214524" duration="841000" />
+      <workItem from="1640677052068" duration="785000" />
+      <workItem from="1640680143587" duration="214000" />
+      <workItem from="1640685522376" duration="1602000" />
+      <workItem from="1640690111211" duration="935000" />
+      <workItem from="1640694465668" duration="3194000" />
+      <workItem from="1640780710462" duration="272000" />
+      <workItem from="1640787179728" duration="684000" />
+      <workItem from="1640864437542" duration="53000" />
+      <workItem from="1641017305223" duration="390000" />
+      <workItem from="1641737949752" duration="1996000" />
+      <workItem from="1641887232472" duration="148000" />
+      <workItem from="1641887411009" duration="29000" />
+      <workItem from="1642159130454" duration="38000" />
+      <workItem from="1642225203030" duration="2021000" />
+      <workItem from="1642232275892" duration="512000" />
+      <workItem from="1642232925374" duration="359000" />
+      <workItem from="1642492583996" duration="388000" />
+      <workItem from="1642792908061" duration="1526000" />
+      <workItem from="1642857805395" duration="752000" />
+      <workItem from="1642858576956" duration="1127000" />
+      <workItem from="1642967243311" duration="99000" />
+      <workItem from="1643279085816" duration="540000" />
+      <workItem from="1643806608808" duration="219000" />
+      <workItem from="1644009835050" duration="1398000" />
+      <workItem from="1644219285207" duration="287000" />
+      <workItem from="1644219596974" duration="1075000" />
+      <workItem from="1644221938244" duration="79000" />
+      <workItem from="1644226898849" duration="388000" />
+      <workItem from="1644311407040" duration="106000" />
+      <workItem from="1644477736009" duration="2222000" />
+      <workItem from="1644479997413" duration="8083000" />
+      <workItem from="1644489016932" duration="3509000" />
+      <workItem from="1644492840667" duration="12412000" />
+      <workItem from="1644513925856" duration="1241000" />
+      <workItem from="1644519618804" duration="82000" />
+      <workItem from="1644524466442" duration="8837000" />
+      <workItem from="1644576119113" duration="2553000" />
+      <workItem from="1644579338807" duration="1075000" />
+      <workItem from="1644580432680" duration="74000" />
+      <workItem from="1644589879670" duration="1167000" />
+      <workItem from="1644591069519" duration="1980000" />
+      <workItem from="1644594455765" duration="8954000" />
+      <workItem from="1644661577841" duration="638000" />
+      <workItem from="1644671894378" duration="6465000" />
+      <workItem from="1644768350729" duration="44000" />
+      <workItem from="1644768876145" duration="2910000" />
+      <workItem from="1644820165246" duration="14477000" />
+      <workItem from="1644836138191" duration="1841000" />
+      <workItem from="1644838009539" duration="250000" />
+      <workItem from="1644841712714" duration="6180000" />
+      <workItem from="1644850621645" duration="1559000" />
+      <workItem from="1644852208063" duration="7537000" />
+      <workItem from="1644859870285" duration="1307000" />
+      <workItem from="1644906520273" duration="22982000" />
+      <workItem from="1644941979753" duration="384000" />
+      <workItem from="1644950258211" duration="382000" />
+      <workItem from="1644953916845" duration="161000" />
+      <workItem from="1644995896789" duration="849000" />
+      <workItem from="1644996764919" duration="20321000" />
+      <workItem from="1645081368890" duration="23689000" />
+      <workItem from="1645167323022" duration="8741000" />
+      <workItem from="1645180681227" duration="7063000" />
+      <workItem from="1645193554820" duration="2365000" />
+      <workItem from="1645257363863" duration="606000" />
+      <workItem from="1645373021522" duration="137000" />
+      <workItem from="1645373168630" duration="2000" />
+      <workItem from="1645435514560" duration="145000" />
+      <workItem from="1645481382623" duration="756000" />
+      <workItem from="1645546455277" duration="110000" />
+      <workItem from="1646116893826" duration="671000" />
+      <workItem from="1646117587440" duration="12709000" />
+      <workItem from="1646134824560" duration="1214000" />
+      <workItem from="1646150066059" duration="6768000" />
+      <workItem from="1646204756530" duration="19420000" />
+      <workItem from="1646291136264" duration="16446000" />
+      <workItem from="1646310941196" duration="942000" />
+      <workItem from="1646311903594" duration="357000" />
+      <workItem from="1646312278417" duration="3518000" />
+      <workItem from="1646321246593" duration="12000" />
+      <workItem from="1646378227319" duration="7757000" />
+      <workItem from="1646386798357" duration="1365000" />
+      <workItem from="1646392864603" duration="1654000" />
+      <workItem from="1646400269347" duration="11601000" />
+      <workItem from="1646414684573" duration="3533000" />
+      <workItem from="1646465231415" duration="32000" />
+      <workItem from="1646465277589" duration="8007000" />
+      <workItem from="1646597018384" duration="1000" />
+      <workItem from="1646681038981" duration="1917000" />
+      <workItem from="1646759955244" duration="4448000" />
+      <workItem from="1646807864923" duration="25206000" />
+      <workItem from="1646895475308" duration="23994000" />
+      <workItem from="1646943251186" duration="32000" />
+      <workItem from="1646984574081" duration="4761000" />
+      <workItem from="1646989809512" duration="2089000" />
+      <workItem from="1646994819113" duration="3629000" />
+      <workItem from="1647007504583" duration="11397000" />
+      <workItem from="1647019623950" duration="1631000" />
+      <workItem from="1647241754519" duration="766000" />
+      <workItem from="1647242540121" duration="10075000" />
+      <workItem from="1647261042532" duration="4322000" />
+      <workItem from="1647269025543" duration="5723000" />
+      <workItem from="1647278184518" duration="2548000" />
+      <workItem from="1647326678732" duration="16814000" />
+      <workItem from="1647346679436" duration="8845000" />
+      <workItem from="1647358541125" duration="3713000" />
+      <workItem from="1647416048972" duration="15660000" />
+      <workItem from="1647500833469" duration="12794000" />
+      <workItem from="1647515160227" duration="8454000" />
+      <workItem from="1647524347183" duration="5060000" />
+      <workItem from="1647538603537" duration="13000" />
+      <workItem from="1647543928168" duration="37000" />
+      <workItem from="1647587319381" duration="5825000" />
+      <workItem from="1647594041378" duration="3008000" />
+      <workItem from="1647599661730" duration="9231000" />
+      <workItem from="1647612343811" duration="2334000" />
+      <workItem from="1647672436372" duration="3913000" />
+      <workItem from="1647686598213" duration="3919000" />
+      <workItem from="1647846360272" duration="101000" />
+      <workItem from="1647846488913" duration="36374000" />
+      <workItem from="1647886601452" duration="1455000" />
+      <workItem from="1647934422094" duration="23577000" />
+      <workItem from="1648021615000" duration="7295000" />
+      <workItem from="1648064056958" duration="165000" />
+      <workItem from="1648106909205" duration="20810000" />
+      <workItem from="1648132407663" duration="18000" />
+      <workItem from="1648133169405" duration="2319000" />
+      <workItem from="1648136194592" duration="56000" />
+      <workItem from="1648143402247" duration="931000" />
+      <workItem from="1648192761938" duration="1481000" />
+      <workItem from="1648197583519" duration="3684000" />
+      <workItem from="1648201307861" duration="512000" />
+      <workItem from="1648204001672" duration="6059000" />
+      <workItem from="1648212786655" duration="19229000" />
+      <workItem from="1648277657175" duration="3551000" />
+      <workItem from="1648291376470" duration="9626000" />
+      <workItem from="1648450229223" duration="16207000" />
+      <workItem from="1648469920233" duration="1262000" />
+      <workItem from="1648472699303" duration="12218000" />
+      <workItem from="1648536425576" duration="12104000" />
+      <workItem from="1648556657550" duration="5945000" />
+      <workItem from="1648569483977" duration="1543000" />
+      <workItem from="1648571560097" duration="7319000" />
+      <workItem from="1648628962983" duration="15494000" />
+      <workItem from="1648709801911" duration="7664000" />
+      <workItem from="1648718397026" duration="16324000" />
+      <workItem from="1648747702239" duration="10000" />
+      <workItem from="1648752553304" duration="3000" />
+      <workItem from="1648797888525" duration="480000" />
+      <workItem from="1648798395605" duration="884000" />
+      <workItem from="1648799303305" duration="7333000" />
+      <workItem from="1648812836536" duration="3366000" />
+      <workItem from="1648819506097" duration="18364000" />
+      <workItem from="1648883058706" duration="1435000" />
+      <workItem from="1648884843735" duration="24000" />
+      <workItem from="1648909635030" duration="139000" />
+      <workItem from="1649064972999" duration="21702000" />
+      <workItem from="1649088604892" duration="197000" />
+      <workItem from="1649098248887" duration="860000" />
+      <workItem from="1649142085145" duration="33220000" />
+      <workItem from="1649179630024" duration="1679000" />
+      <workItem from="1649181374885" duration="111000" />
+      <workItem from="1649186908172" duration="30000" />
+      <workItem from="1649227920372" duration="8505000" />
+      <workItem from="1649237188032" duration="14199000" />
+      <workItem from="1649316206757" duration="24727000" />
+      <workItem from="1649403397578" duration="2016000" />
+      <workItem from="1649407698002" duration="4200000" />
+      <workItem from="1649414779703" duration="7045000" />
+      <workItem from="1649427657038" duration="8064000" />
+      <workItem from="1649486805403" duration="2468000" />
+      <workItem from="1649500574525" duration="133000" />
+      <workItem from="1649503534048" duration="430000" />
+      <workItem from="1649660506910" duration="31790000" />
+      <workItem from="1649747162345" duration="10080000" />
+      <workItem from="1649765966184" duration="6037000" />
+      <workItem from="1649833807248" duration="9513000" />
+      <workItem from="1649845031595" duration="4129000" />
+      <workItem from="1649858542766" duration="91000" />
+      <workItem from="1649858819660" duration="235000" />
+      <workItem from="1649920921056" duration="22810000" />
+      <workItem from="1649965739216" duration="109000" />
+      <workItem from="1650007044181" duration="27513000" />
+      <workItem from="1650093152395" duration="11000" />
+      <workItem from="1650105354992" duration="1287000" />
+      <workItem from="1650198163851" duration="6000" />
+      <workItem from="1650198357754" duration="7000" />
+      <workItem from="1650201834804" duration="939000" />
+      <workItem from="1650207905324" duration="1383000" />
+      <workItem from="1650264879723" duration="9058000" />
+      <workItem from="1650276540478" duration="29832000" />
+      <workItem from="1650353796737" duration="23451000" />
+      <workItem from="1650388115550" duration="165000" />
+      <workItem from="1650440654255" duration="18200000" />
+      <workItem from="1650526452433" duration="20900000" />
+      <workItem from="1650555094719" duration="63000" />
+      <workItem from="1650617029109" duration="4156000" />
+      <workItem from="1650628650420" duration="1649000" />
+      <workItem from="1650638359348" duration="14242000" />
+      <workItem from="1650716561633" duration="15000" />
+      <workItem from="1650871442126" duration="2815000" />
+      <workItem from="1650874311763" duration="3007000" />
+      <workItem from="1650882877165" duration="1439000" />
+      <workItem from="1650886767223" duration="13198000" />
+      <workItem from="1650957180575" duration="7726000" />
+      <workItem from="1650967697266" duration="1190000" />
+      <workItem from="1650974215720" duration="3716000" />
+      <workItem from="1650989234412" duration="1984000" />
+      <workItem from="1650994305526" duration="7485000" />
+      <workItem from="1651043999165" duration="14194000" />
+      <workItem from="1651059960714" duration="4103000" />
+      <workItem from="1651070873408" duration="7676000" />
+      <workItem from="1651130681593" duration="18374000" />
+      <workItem from="1651218787286" duration="106000" />
+      <workItem from="1651249413437" duration="940000" />
+      <workItem from="1651643412898" duration="1601000" />
+      <workItem from="1651650125539" duration="6462000" />
+      <workItem from="1651671810168" duration="117000" />
+      <workItem from="1651734999178" duration="26671000" />
+      <workItem from="1651821659548" duration="22319000" />
+      <workItem from="1651858864908" duration="657000" />
+      <workItem from="1652103628212" duration="3807000" />
+      <workItem from="1652110169957" duration="916000" />
+      <workItem from="1652250682630" duration="12524000" />
+      <workItem from="1652274485715" duration="8012000" />
+      <workItem from="1652290876128" duration="2461000" />
+      <workItem from="1652338537934" duration="15554000" />
+      <workItem from="1652429181005" duration="5033000" />
+      <workItem from="1652437657351" duration="2178000" />
+      <workItem from="1652443725412" duration="11962000" />
+      <workItem from="1652514387458" duration="747000" />
+      <workItem from="1652518658785" duration="708000" />
+      <workItem from="1652520023438" duration="1490000" />
+      <workItem from="1652524182453" duration="2170000" />
+      <workItem from="1652590917717" duration="599000" />
+      <workItem from="1652593894248" duration="4467000" />
+      <workItem from="1652684643897" duration="13435000" />
+      <workItem from="1652706071555" duration="2000" />
+      <workItem from="1652707459133" duration="10947000" />
+      <workItem from="1652772560699" duration="26483000" />
+      <workItem from="1652806977776" duration="54000" />
+      <workItem from="1652807048274" duration="1789000" />
+      <workItem from="1652860348261" duration="18137000" />
+      <workItem from="1652936682820" duration="19025000" />
+      <workItem from="1653033901340" duration="18632000" />
+      <workItem from="1653114426474" duration="75000" />
+      <workItem from="1653130179826" duration="1620000" />
+      <workItem from="1653289312930" duration="3160000" />
+      <workItem from="1653299658279" duration="15897000" />
+      <workItem from="1653374815260" duration="7414000" />
+      <workItem from="1653382980921" duration="19891000" />
+      <workItem from="1653463355285" duration="14740000" />
+      <workItem from="1653488204686" duration="14583000" />
+      <workItem from="1653549609895" duration="23688000" />
+      <workItem from="1653587128038" duration="53000" />
+      <workItem from="1653588583012" duration="143000" />
+      <workItem from="1653638140238" duration="9793000" />
+    </task>
+    <task id="LOCAL-00275" summary="[AUTOTEST-225] Добавил ссылок">
+      <created>1652698330576</created>
+      <option name="number" value="00275" />
+      <option name="presentableId" value="LOCAL-00275" />
+      <option name="project" value="LOCAL" />
+      <updated>1652698330576</updated>
+    </task>
+    <task id="LOCAL-00276" summary="[AUTOTEST-225] Добавил метод для выдачи публичного доступа к контенту. Добавил ссылок">
+      <created>1652723399351</created>
+      <option name="number" value="00276" />
+      <option name="presentableId" value="LOCAL-00276" />
+      <option name="project" value="LOCAL" />
+      <updated>1652723399351</updated>
+    </task>
+    <task id="LOCAL-00277" summary="[AUTOTEST-225] Подмержил спринт 14">
+      <created>1652773307747</created>
+      <option name="number" value="00277" />
+      <option name="presentableId" value="LOCAL-00277" />
+      <option name="project" value="LOCAL" />
+      <updated>1652773307763</updated>
+    </task>
+    <task id="LOCAL-00278" summary="[AUTOTEST-231] Написал тесты для поиска загржаемого контента">
+      <created>1652792699652</created>
+      <option name="number" value="00278" />
+      <option name="presentableId" value="LOCAL-00278" />
+      <option name="project" value="LOCAL" />
+      <updated>1652792699652</updated>
+    </task>
+    <task id="LOCAL-00279" summary="[AUTOTEST-225] Добавил проверку на отсутствие красного тостера. Добавил проверку на отсутствие страницы браузерной ошибки">
+      <created>1652795891187</created>
+      <option name="number" value="00279" />
+      <option name="presentableId" value="LOCAL-00279" />
+      <option name="project" value="LOCAL" />
+      <updated>1652795891187</updated>
+    </task>
+    <task id="LOCAL-00280" summary="[AUTOTEST-225] Поправил замечания по CR">
+      <created>1652796973931</created>
+      <option name="number" value="00280" />
+      <option name="presentableId" value="LOCAL-00280" />
+      <option name="project" value="LOCAL" />
+      <updated>1652796973931</updated>
+    </task>
+    <task id="LOCAL-00281" summary="[AUTOTEST-225] Поправил селектор">
+      <created>1652797152460</created>
+      <option name="number" value="00281" />
+      <option name="presentableId" value="LOCAL-00281" />
+      <option name="project" value="LOCAL" />
+      <updated>1652797152460</updated>
+    </task>
+    <task id="LOCAL-00282" summary="[AUTOTEST-225] Поправил замечания по CR">
+      <created>1652865842016</created>
+      <option name="number" value="00282" />
+      <option name="presentableId" value="LOCAL-00282" />
+      <option name="project" value="LOCAL" />
+      <updated>1652865842016</updated>
+    </task>
+    <task id="LOCAL-00283" summary="[AUTOTEST-231] Добавил тестов для лерна, добавил моедль для папки">
+      <created>1652870902406</created>
+      <option name="number" value="00283" />
+      <option name="presentableId" value="LOCAL-00283" />
+      <option name="project" value="LOCAL" />
+      <updated>1652870902406</updated>
+    </task>
+    <task id="LOCAL-00284" summary="[AUTOTEST-231] Написал подготовку данных для теста">
+      <created>1652876136918</created>
+      <option name="number" value="00284" />
+      <option name="presentableId" value="LOCAL-00284" />
+      <option name="project" value="LOCAL" />
+      <updated>1652876136918</updated>
+    </task>
+    <task id="LOCAL-00285" summary="[AUTOTEST-231] Написал подготовку данных для теста">
+      <created>1652876812773</created>
+      <option name="number" value="00285" />
+      <option name="presentableId" value="LOCAL-00285" />
+      <option name="project" value="LOCAL" />
+      <updated>1652876812773</updated>
+    </task>
+    <task id="LOCAL-00286" summary="[AUTOTEST-231] Подмержил ветку спринт 14">
+      <created>1652877577230</created>
+      <option name="number" value="00286" />
+      <option name="presentableId" value="LOCAL-00286" />
+      <option name="project" value="LOCAL" />
+      <updated>1652877577230</updated>
+    </task>
+    <task id="LOCAL-00287" summary="[AUTOTEST-231] Написал тест для множественного поиска контента">
+      <created>1652942623663</created>
+      <option name="number" value="00287" />
+      <option name="presentableId" value="LOCAL-00287" />
+      <option name="project" value="LOCAL" />
+      <updated>1652942623663</updated>
+    </task>
+    <task id="LOCAL-00288" summary="[AUTOTEST-231] Убрал forEach">
+      <created>1652953701161</created>
+      <option name="number" value="00288" />
+      <option name="presentableId" value="LOCAL-00288" />
+      <option name="project" value="LOCAL" />
+      <updated>1652953701161</updated>
+    </task>
+    <task id="LOCAL-00289" summary="[AUTOTEST-196] Поправил селектор, добавил переопределение урла у проекта">
+      <created>1652954966430</created>
+      <option name="number" value="00289" />
+      <option name="presentableId" value="LOCAL-00289" />
+      <option name="project" value="LOCAL" />
+      <updated>1652954966430</updated>
+    </task>
+    <task id="LOCAL-00290" summary="[AUTOTEST-196] Подмержил sprint-14">
+      <created>1652955300021</created>
+      <option name="number" value="00290" />
+      <option name="presentableId" value="LOCAL-00290" />
+      <option name="project" value="LOCAL" />
+      <updated>1652955300021</updated>
+    </task>
+    <task id="LOCAL-00291" summary="[AUTOTEST-231] Подмержил sprint-14">
+      <created>1652957612827</created>
+      <option name="number" value="00291" />
+      <option name="presentableId" value="LOCAL-00291" />
+      <option name="project" value="LOCAL" />
+      <updated>1652957612827</updated>
+    </task>
+    <task id="LOCAL-00292" summary="[AUTOTEST-231] Добавил пауз">
+      <created>1652959468382</created>
+      <option name="number" value="00292" />
+      <option name="presentableId" value="LOCAL-00292" />
+      <option name="project" value="LOCAL" />
+      <updated>1652959468382</updated>
+    </task>
+    <task id="LOCAL-00293" summary="[AUTOTEST-231] Добавил тест для поиска множества контента">
+      <created>1653038273041</created>
+      <option name="number" value="00293" />
+      <option name="presentableId" value="LOCAL-00293" />
+      <option name="project" value="LOCAL" />
+      <updated>1653038273041</updated>
+    </task>
+    <task id="LOCAL-00294" summary="[AUTOTEST-231] Добавил описание для отчета">
+      <created>1653038625325</created>
+      <option name="number" value="00294" />
+      <option name="presentableId" value="LOCAL-00294" />
+      <option name="project" value="LOCAL" />
+      <updated>1653038625326</updated>
+    </task>
+    <task id="LOCAL-00295" summary="[AUTOTEST-196] Поправил замечание по CR">
+      <created>1653297871279</created>
+      <option name="number" value="00295" />
+      <option name="presentableId" value="LOCAL-00295" />
+      <option name="project" value="LOCAL" />
+      <updated>1653297871279</updated>
+    </task>
+    <task id="LOCAL-00296" summary="[AUTOTEST-236] Добавил методы для работы с настройками таблицы контента">
+      <created>1653310465858</created>
+      <option name="number" value="00296" />
+      <option name="presentableId" value="LOCAL-00296" />
+      <option name="project" value="LOCAL" />
+      <updated>1653310465858</updated>
+    </task>
+    <task id="LOCAL-00297" summary="[AUTOTEST-196] Поменял тип у метода openContentManagementPage на ProductName">
+      <created>1653310741322</created>
+      <option name="number" value="00297" />
+      <option name="presentableId" value="LOCAL-00297" />
+      <option name="project" value="LOCAL" />
+      <updated>1653310741322</updated>
+    </task>
+    <task id="LOCAL-00298" summary="[AUTOTEST-196] подмержил спринт 14">
+      <created>1653310941291</created>
+      <option name="number" value="00298" />
+      <option name="presentableId" value="LOCAL-00298" />
+      <option name="project" value="LOCAL" />
+      <updated>1653310941291</updated>
+    </task>
+    <task id="LOCAL-00299" summary="[AUTOTEST-236] Дописал тесты по настройкам столбцов на странице контента для проекта">
+      <created>1653384617233</created>
+      <option name="number" value="00299" />
+      <option name="presentableId" value="LOCAL-00299" />
+      <option name="project" value="LOCAL" />
+      <updated>1653384617233</updated>
+    </task>
+    <task id="LOCAL-00300" summary="[AUTOTEST-236] Написал тесты для вкладки &quot;Избранное&quot;">
+      <created>1653396828626</created>
+      <option name="number" value="00300" />
+      <option name="presentableId" value="LOCAL-00300" />
+      <option name="project" value="LOCAL" />
+      <updated>1653396828626</updated>
+    </task>
+    <task id="LOCAL-00301" summary="[AUTOTEST-236] Убрал некоторые тесты">
+      <created>1653465397117</created>
+      <option name="number" value="00301" />
+      <option name="presentableId" value="LOCAL-00301" />
+      <option name="project" value="LOCAL" />
+      <updated>1653465397117</updated>
+    </task>
+    <task id="LOCAL-00302" summary="[AUTOTEST-236] Подмержил AUTOTEST-236">
+      <created>1653469393925</created>
+      <option name="number" value="00302" />
+      <option name="presentableId" value="LOCAL-00302" />
+      <option name="project" value="LOCAL" />
+      <updated>1653469393925</updated>
+    </task>
+    <task id="LOCAL-00303" summary="[AUTOTEST-236] Поменял логику тестов">
+      <created>1653470895288</created>
+      <option name="number" value="00303" />
+      <option name="presentableId" value="LOCAL-00303" />
+      <option name="project" value="LOCAL" />
+      <updated>1653470895288</updated>
+    </task>
+    <task id="LOCAL-00304" summary="[AUTOTEST-236] Переписал тесты для вкладки &quot;Избранное&quot;">
+      <created>1653473902751</created>
+      <option name="number" value="00304" />
+      <option name="presentableId" value="LOCAL-00304" />
+      <option name="project" value="LOCAL" />
+      <updated>1653473902751</updated>
+    </task>
+    <task id="LOCAL-00305" summary="[AUTOTEST-236] Поправил надписи для обозначения в allure">
+      <created>1653475329262</created>
+      <option name="number" value="00305" />
+      <option name="presentableId" value="LOCAL-00305" />
+      <option name="project" value="LOCAL" />
+      <updated>1653475329262</updated>
+    </task>
+    <task id="LOCAL-00306" summary="[AUTOTEST-231] Поправил некоторые замечания по CR">
+      <created>1653479421972</created>
+      <option name="number" value="00306" />
+      <option name="presentableId" value="LOCAL-00306" />
+      <option name="project" value="LOCAL" />
+      <updated>1653479421972</updated>
+    </task>
+    <task id="LOCAL-00307" summary="[AUTOTEST-231] Подмержил спринт 14">
+      <created>1653479544926</created>
+      <option name="number" value="00307" />
+      <option name="presentableId" value="LOCAL-00307" />
+      <option name="project" value="LOCAL" />
+      <updated>1653479544926</updated>
+    </task>
+    <task id="LOCAL-00308" summary="[AUTOTEST-231] Поправил замечания по CR">
+      <created>1653496783212</created>
+      <option name="number" value="00308" />
+      <option name="presentableId" value="LOCAL-00308" />
+      <option name="project" value="LOCAL" />
+      <updated>1653496783213</updated>
+    </task>
+    <task id="LOCAL-00309" summary="[AUTOTEST-236] Подмержил AUTOTEST-231">
+      <created>1653498208324</created>
+      <option name="number" value="00309" />
+      <option name="presentableId" value="LOCAL-00309" />
+      <option name="project" value="LOCAL" />
+      <updated>1653498208324</updated>
+    </task>
+    <task id="LOCAL-00310" summary="[AUTOTEST-236] Добавил проверок">
+      <created>1653500730370</created>
+      <option name="number" value="00310" />
+      <option name="presentableId" value="LOCAL-00310" />
+      <option name="project" value="LOCAL" />
+      <updated>1653500730370</updated>
+    </task>
+    <task id="LOCAL-00311" summary="[AUTOTEST-241] Поправил селектор">
+      <created>1653503434982</created>
+      <option name="number" value="00311" />
+      <option name="presentableId" value="LOCAL-00311" />
+      <option name="project" value="LOCAL" />
+      <updated>1653503434982</updated>
+    </task>
+    <task id="LOCAL-00312" summary="[AUTOTEST-241] Поменял еще селекторы">
+      <created>1653503672629</created>
+      <option name="number" value="00312" />
+      <option name="presentableId" value="LOCAL-00312" />
+      <option name="project" value="LOCAL" />
+      <updated>1653503672629</updated>
+    </task>
+    <task id="LOCAL-00313" summary="[AUTOTEST-241] Написал тесты для вкладки &quot;Недавние&quot;">
+      <created>1653552179867</created>
+      <option name="number" value="00313" />
+      <option name="presentableId" value="LOCAL-00313" />
+      <option name="project" value="LOCAL" />
+      <updated>1653552179867</updated>
+    </task>
+    <task id="LOCAL-00314" summary="[AUTOTEST-241] Убрал only">
+      <created>1653552209007</created>
+      <option name="number" value="00314" />
+      <option name="presentableId" value="LOCAL-00314" />
+      <option name="project" value="LOCAL" />
+      <updated>1653552209007</updated>
+    </task>
+    <task id="LOCAL-00315" summary="[AUTOTEST-241] Поправил селекторы">
+      <created>1653553182900</created>
+      <option name="number" value="00315" />
+      <option name="presentableId" value="LOCAL-00315" />
+      <option name="project" value="LOCAL" />
+      <updated>1653553182900</updated>
+    </task>
+    <task id="LOCAL-00316" summary="[AUTOTEST-236] Разделил тесты лерна и спейса">
+      <created>1653575161001</created>
+      <option name="number" value="00316" />
+      <option name="presentableId" value="LOCAL-00316" />
+      <option name="project" value="LOCAL" />
+      <updated>1653575161002</updated>
+    </task>
+    <task id="LOCAL-00317" summary="[AUTOTEST-223] Подмержил sprint-14">
+      <created>1653576393778</created>
+      <option name="number" value="00317" />
+      <option name="presentableId" value="LOCAL-00317" />
+      <option name="project" value="LOCAL" />
+      <updated>1653576393778</updated>
+    </task>
+    <task id="LOCAL-00318" summary="Подмержил AUTOTEST-231">
+      <created>1653576746544</created>
+      <option name="number" value="00318" />
+      <option name="presentableId" value="LOCAL-00318" />
+      <option name="project" value="LOCAL" />
+      <updated>1653576746544</updated>
+    </task>
+    <task id="LOCAL-00319" summary="AUTOTEST-236 подмержил sprint-15">
+      <created>1653576983187</created>
+      <option name="number" value="00319" />
+      <option name="presentableId" value="LOCAL-00319" />
+      <option name="project" value="LOCAL" />
+      <updated>1653576983187</updated>
+    </task>
+    <task id="LOCAL-00320" summary="AUTOTEST-236 Дописал тесты для лерна">
+      <created>1653578725324</created>
+      <option name="number" value="00320" />
+      <option name="presentableId" value="LOCAL-00320" />
+      <option name="project" value="LOCAL" />
+      <updated>1653578725324</updated>
+    </task>
+    <task id="LOCAL-00321" summary="Merge branch 'sprint-14' into sprint-15">
+      <created>1653638592949</created>
+      <option name="number" value="00321" />
+      <option name="presentableId" value="LOCAL-00321" />
+      <option name="project" value="LOCAL" />
+      <updated>1653638592950</updated>
+    </task>
+    <task id="LOCAL-00322" summary="[AUTOTEST-236] Отладил тесты">
+      <created>1653645616542</created>
+      <option name="number" value="00322" />
+      <option name="presentableId" value="LOCAL-00322" />
+      <option name="project" value="LOCAL" />
+      <updated>1653645616542</updated>
+    </task>
+    <task id="LOCAL-00323" summary="[AUTOTEST-241] Уменьшил количество потоков до 5">
+      <created>1653645971858</created>
+      <option name="number" value="00323" />
+      <option name="presentableId" value="LOCAL-00323" />
+      <option name="project" value="LOCAL" />
+      <updated>1653645971858</updated>
+    </task>
+    <option name="localTasksCounter" value="324" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UpsourceProjectSettings">
+    <option name="chosenProjectId" value="autotest" />
+    <option name="disableSslValidation" value="true" />
+    <option name="projectId2FileIdPrefix">
+      <map>
+        <entry key="autotest" value="/" />
+      </map>
+    </option>
+    <option name="projectId2RootUrl">
+      <map>
+        <entry key="autotest" value="file://$PROJECT_DIR$" />
+      </map>
+    </option>
+    <option name="upsourceUrl" value="https://upsource.islearn.projects.ispring.lan/" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="AUTOTEST-236" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[AUTOTEST-236] Дописал тесты по настройкам столбцов на странице контента для проекта" />
+    <MESSAGE value="[AUTOTEST-236] Написал тесты для вкладки &quot;Избранное&quot;" />
+    <MESSAGE value="[AUTOTEST-236] Убрал некоторые тесты" />
+    <MESSAGE value="[AUTOTEST-236] Подмержил AUTOTEST-236" />
+    <MESSAGE value="[AUTOTEST-236] Поменял логику тестов" />
+    <MESSAGE value="[AUTOTEST-236] Переписал тесты для вкладки &quot;Избранное&quot;" />
+    <MESSAGE value="[AUTOTEST-236] Поправил надписи для обозначения в allure" />
+    <MESSAGE value="[AUTOTEST-231] Поправил некоторые замечания по CR" />
+    <MESSAGE value="[AUTOTEST-231] Подмержил спринт 14" />
+    <MESSAGE value="[AUTOTEST-231] Поправил замечания по CR" />
+    <MESSAGE value="[AUTOTEST-236] Подмержил AUTOTEST-231" />
+    <MESSAGE value="[AUTOTEST-236] Добавил проверок" />
+    <MESSAGE value="[AUTOTEST-241] Поправил селектор" />
+    <MESSAGE value="[AUTOTEST-241] Поменял еще селекторы" />
+    <MESSAGE value="[AUTOTEST-241] Написал тесты для вкладки &quot;Недавние&quot;" />
+    <MESSAGE value="[AUTOTEST-241] Убрал only" />
+    <MESSAGE value="[AUTOTEST-241] Поправил селекторы" />
+    <MESSAGE value="[AUTOTEST-236] Разделил тесты лерна и спейса" />
+    <MESSAGE value="[AUTOTEST-223] Подмержил sprint-14" />
+    <MESSAGE value="Подмержил AUTOTEST-231" />
+    <MESSAGE value="AUTOTEST-236 подмержил sprint-15" />
+    <MESSAGE value="AUTOTEST-236 Дописал тесты для лерна" />
+    <MESSAGE value="Merge branch 'sprint-14' into sprint-15" />
+    <MESSAGE value="[AUTOTEST-236] Отладил тесты" />
+    <MESSAGE value="[AUTOTEST-241] Уменьшил количество потоков до 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="[AUTOTEST-241] Уменьшил количество потоков до 5" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="e2e_tests" type="b2602c69:ProjectViewProjectNode" />
+        <item name="e2e_tests" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+</project>
